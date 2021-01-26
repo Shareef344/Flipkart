@@ -23,7 +23,7 @@ public class dropdown {
 		  Select se = new Select(ele);
 		  
 		  java.util.List<WebElement> lst = se.getOptions();
-		 
+		 /////////////////////////
 		
 		for(WebElement e: lst) {
 		System.out.println(e.getText());
